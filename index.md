@@ -1,6 +1,6 @@
 # Min Gao's Homepage
 ## Home
-I am a PhD student within the School of Computer Science at Fudan University. My research interests include network science, social computing, graph learning, and fraud detection. (E-mail: mgao21@m.fudan.edu.cn)
+I am a PhD student within the School of Computer Science at Fudan University. My research interests include LLM, network science, graph representation learning and related applications such as fraud detection and social bot detection. (E-mail: mgao21@m.fudan.edu.cn)
 
 ## Education
 
@@ -21,8 +21,20 @@ GPA: 3.93
 **EasyGraph: A Multifunctional, Cross-Platform, and Effective Library for Interdisciplinary Network Analysis.**
 
 **Min Gao**, Zheng Li, Ruichen Li, Chenhao Cui, Xinyuan Chen, Bodian Ye, Yupeng Li, Weiwei Gu, Qingyuan Gong, Xin Wang, and Yang Chen.
-To appear: Patterns (Cell Press).
+Patterns 4, 100839.  (Cell Press) 
 [[PAPER](https://www.cell.com/patterns/pdf/S2666-3899(23)00218-0.pdf)|[PROJECT](https://easy-graph.github.io/)|[CODE](https://github.com/easy-graph/Easy-Graph)]
+
+**Detecting compromised accounts caused by phone number recycling on e-commerce platforms: taking Meituan as an example.**
+
+**Min Gao**, Shutong Chen, Yangbo Gao, Zhenhua Zhang, Yu Chen, Yupeng Li, Qiongzan Ye, Xin Wang, and Yang Chen.
+FITEE, 25(8): 1077-1095(2024).
+[[PAPER]([https://www.cell.com/patterns/pdf/S2666-3899(23)00218-0.pdf](https://www.fitee.zjujournals.com/en/article/doi/10.1631/FITEE.2300291/))]
+
+**EasyHypergraph: an open-source software for fast and memory-saving analysis and learning of higher-order networks.** 
+
+Bodian Ye, **Min Gao**, Xiu-Xiu Zhan, Xinlei He, Zi-Ke Zhang, Qingyuan Gong*, Xin Wang, Yang Chen.
+Humanities and Social Sciences Communications, 2025, 12:1291. (Nature Portfolio).
+[[PAPER]([https://www.cell.com/patterns/pdf/S2666-3899(23)00218-0.pdf](https://www.fitee.zjujournals.com/en/article/doi/10.1631/FITEE.2300291/))]
 
 **Account Takeover Detection on E-Commerce Platforms.**  
 **Min Gao**  
