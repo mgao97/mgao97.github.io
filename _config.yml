@@ -1,1 +1,4 @@
-theme: jekyll-theme-modernist
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock

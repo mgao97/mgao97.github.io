@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preview: Min Gao</title>
+    <link rel="icon" type="image/png" href="images/fudan_logo_blue.png">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+      body { max-width: 900px; margin: 0 auto; padding: 16px; }
+      img { max-width: 100%; height: auto; }
+      pre, code { white-space: pre-wrap; }
+      .note { color: #777; font-size: 0.9em; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <main id="content">
+      <p class="note">Local preview (client-side render of index.md). Front matter is ignored for preview.</p>
+    </main>
+    <footer style="text-align:right">
+      <small>Modified from <a href="https://jonbarron.info/">Jon Barron</a></small>
+    </footer>
+    <script>
+      async function loadMarkdown() {
+        const resp = await fetch('index.md', { cache: 'no-cache' });
+        let text = await resp.text();
+        // Strip YAML front matter between leading --- blocks
+        if (text.startsWith('---')) {
+          const end = text.indexOf('\n---', 3);
+          if (end !== -1) text = text.slice(end + 4);
+        }
+        document.getElementById('content').innerHTML = marked.parse(text);
+      }
+      loadMarkdown();
+    </script>
+  </body>
+</html>

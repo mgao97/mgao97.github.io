@@ -129,3 +129,219 @@
   span.highlight {
     background-color: #ffffd0;
   }
+  
+  :root {
+    --text: #222;
+    --muted: #5c6773;
+    --link: #1772d0;
+    --link-hover: #f09228;
+    --bg: #ffffff;
+    --border: #e5e8eb;
+    --card-bg: #fafbfc;
+    --card-hover-bg: #e9f2ff;
+  }
+  
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin: 8px 0 12px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin: 20px 0 10px;
+    font-weight: 700;
+  }
+  
+  p {
+    margin: 8px 0 12px;
+    color: var(--text);
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin: 8px 0 12px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .section-compact p { margin: 6px 0 8px; }
+  .section-compact h2 { margin: 16px 0 8px; }
+  
+  .hero {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    gap: 20px;
+    align-items: start;
+    margin: 8px 0 12px;
+  }
+  
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  
+  .hero-avatar {
+    width: 130px;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    justify-self: center;
+  }
+  
+  .avatar-caption {
+    text-align: center;
+    margin-top: 8px;
+  }
+  .avatar-caption .name {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 2px 0 4px;
+  }
+  .avatar-caption .role {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .badge-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 8px 0 12px;
+    justify-content: center;
+  }
+  .badge-links a {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--link);
+    background: #fff;
+  }
+  .badge-links a:hover {
+    color: var(--link-hover);
+    border-color: var(--link-hover);
+  }
+  
+  .chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 6px 0 10px;
+  }
+  .chip {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #f3f5f7;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  
+  .pub-card {
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 16px;
+    margin: 12px 0;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--card-bg);
+    transition: background .2s ease, transform .2s ease, border-color .2s ease;
+  }
+  
+  .pub-card img {
+    width: 210px;
+    height: auto;
+    border-radius: 6px;
+    background: #fff;
+  }
+  
+  .pub-card:hover {
+    background: var(--card-hover-bg);
+    border-color: var(--link);
+    transform: translateY(-2px);
+  }
+  
+  .pub-title {
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  
+  .meta {
+    color: var(--muted);
+    margin: 4px 0 8px;
+  }
+  
+  .resource-links a {
+    margin-right: 10px;
+  }
+  
+  .edu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  
+  .edu-inline {
+    list-style: none;
+    padding-left: 0;
+    margin: 4px 0 12px;
+  }
+  .edu-inline li { margin: 4px 0; }
+  .edu-inline .degree { font-weight: 700; }
+  .edu-inline .meta { color: var(--muted); font-size: 12px; }
+  .edu-inline .org { color: var(--muted); }
+  .edu-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--card-bg);
+    padding: 12px;
+  }
+  .edu-title {
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+  .edu-meta {
+    color: var(--muted);
+    margin: 0 0 6px;
+    font-size: 12px;
+  }
+  .edu-org { margin: 0 0 4px; }
+  .edu-advisor { color: var(--muted); font-size: 13px; }
+  
+  @media (max-width: 768px) {
+    .hero {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .hero-avatar {
+      width: 120px;
+      justify-self: start;
+    }
+    .pub-card {
+      grid-template-columns: 1fr;
+    }
+    .pub-card img {
+      width: 100%;
+    }
+    .edu-grid {
+      grid-template-columns: 1fr;
+    }
+  }
