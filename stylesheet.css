@@ -139,6 +139,11 @@
     --border: #e5e8eb;
     --card-bg: #fafbfc;
     --card-hover-bg: #e9f2ff;
+    --about-bg: #f6f8fb;
+    --btn-email-bg: #e8f0fe;
+    --btn-scholar-bg: #e7f3ff;
+    --btn-rg-bg: #e9f7f2;
+    --btn-github-bg: #f4f6f8;
   }
   
   html, body {
@@ -180,7 +185,7 @@
   
   .hero {
     display: grid;
-    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-columns: 0.55fr 1.45fr;
     gap: 20px;
     align-items: start;
     margin: 8px 0 12px;
@@ -195,7 +200,7 @@
   }
   
   .hero-avatar {
-    width: 130px;
+    width: 120px;
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -226,15 +231,29 @@
   }
   .badge-links a {
     display: inline-block;
-    padding: 6px 10px;
+    padding: 6px 12px;
     border: 1px solid var(--border);
     border-radius: 999px;
-    color: var(--link);
-    background: #fff;
+    color: var(--text);
+    background: var(--btn-scholar-bg);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
   }
   .badge-links a:hover {
     color: var(--link-hover);
-    border-color: var(--link-hover);
+    border-color: var(--link);
+    background: #f0f5ff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+  .badge-links .btn-email { background: var(--btn-email-bg); }
+  .badge-links .btn-scholar { background: var(--btn-scholar-bg); }
+  .badge-links .btn-rg { background: var(--btn-rg-bg); }
+  .badge-links .btn-github { background: var(--btn-github-bg); }
+  
+  .about-card {
+    background: var(--about-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px;
   }
   
   .chip-list {
@@ -252,6 +271,11 @@
     color: var(--muted);
     font-size: 12px;
   }
+  .chip-llms { background: #e8f0fe; color: #1f3b7a; }
+  .chip-graph { background: #edf7f4; color: #20604f; }
+  .chip-bot { background: #fff6eb; color: #7a3d0c; }
+  .chip-fraud { background: #f6eef4; color: #6a2343; }
+  .chip:hover { transform: translateY(-1px); box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
   
   .pub-card {
     display: grid;
@@ -288,9 +312,50 @@
     color: var(--muted);
     margin: 4px 0 8px;
   }
+  .meta .badge {
+    font-weight: 700;
+    background: #eef3ff;
+    color: var(--text);
+    padding: 2px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    display: inline-inline;
+  }
+  
+  .year-badge {
+    font-weight: 700;
+    background: #eef3ff;
+    color: var(--text);
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .awards {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 8px 0 12px;
+  }
+  .awards li {
+    display: block;
+    margin: 6px 0;
+    line-height: 1.55;
+  }
+  .award-title { display: inline-block; max-width: calc(100% - 110px); }
+  .award-year {
+    float: right;
+    color: var(--muted);
+    font-weight: 600;
+    min-width: 90px;
+    text-align: right;
+  }
   
   .resource-links a {
-    margin-right: 10px;
+    margin-right: 12px;
+    display: inline-block;
+    padding: 2px 4px;
   }
   
   .edu-grid {
@@ -308,6 +373,47 @@
   .edu-inline .degree { font-weight: 700; }
   .edu-inline .meta { color: var(--muted); font-size: 12px; }
   .edu-inline .org { color: var(--muted); }
+  
+  .timeline {
+    position: relative;
+    margin: 12px 0 16px;
+    padding-left: 20px;
+  }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--border);
+  }
+  .timeline-item {
+    position: relative;
+    margin: 10px 0;
+  }
+  .timeline-dot {
+    position: absolute;
+    left: -1px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background: var(--link);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff;
+  }
+  .timeline-year {
+    font-weight: 700;
+    color: var(--link);
+    margin-right: 8px;
+  }
+  .timeline-content {
+    display: inline-block;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 10px;
+  }
   .edu-card {
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -332,7 +438,7 @@
       gap: 12px;
     }
     .hero-avatar {
-      width: 120px;
+      width: 105px;
       justify-self: start;
     }
     .pub-card {
