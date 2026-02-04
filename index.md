@@ -40,7 +40,7 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
 - [2026/01/16]  🎉 EasyGraph has reached over **1 million downloads on pip**! Thanks to our amazing community!
 - [2026/01/13]  📄 Our paper titled "FediScan: Collaborative Social Bot Detection in the Fediverse" got accepted by **[ACM WWW 2026](https://www2026.thewebconf.org/)**.
 - [2025/10/21]  📄 Our paper titled "Fine-Grained Behavioral Modeling with Graph Neural Networks for Financial Identity Theft Detection" got accepted by **[IEEE TNSE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902)**.
-- [2025/08/05]  📄 Two papers accepted by **[ACM CIKM 2025](https://cikm2025.org/)**.
+- [2025/08/05]  📄 Two papers got accepted by **[ACM CIKM 2025](https://cikm2025.org/)**.
 - [2025/05/30]  📄 Our paper titled "EasyHypergraph: an open-source software for fast and memory-saving analysis and learning of higher-order networks" got accepted by **[HSSC (Nature Portfolio)](https://www.nature.com/palcomms/)**.
 - [2023/10/18]  📄 Our paper titled "Detecting compromised accounts caused by phone number recycling on e-commerce platforms: taking Meituan as an example" got accepted by **[FITEE](https://www.fitee.zjujournals.com/en/home/)**.
 - [2023/08/17]  🚀 We release **[EasyGraph 1.0](https://easy-graph.github.io/)**! 
