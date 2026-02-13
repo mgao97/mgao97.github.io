@@ -37,6 +37,7 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
   
 ## News
 
+- [2026/02/01]  🚀 We release **[EasyGraph 1.6](https://easy-graph.github.io/)**! 
 - [2026/01/16]  🎉 EasyGraph has reached over **1 million downloads on pip**! Thanks to our amazing community!
 - [2026/01/13]  📄 Our paper titled "FediScan: Collaborative Social Bot Detection in the Fediverse" got accepted by **[ACM WWW 2026](https://www2026.thewebconf.org/)**.
 - [2025/10/21]  📄 Our paper titled "Fine-Grained Behavioral Modeling with Graph Neural Networks for Financial Identity Theft Detection" got accepted by **[IEEE TNSE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902)**.
@@ -53,6 +54,7 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
     <p class="pub-title">FediScan: Collaborative Social Bot Detection in the Fediverse</p>
     <p><strong>Min Gao</strong>, Wen Wen, Haoran Du, Qiang Duan, Yu Xiao, Yupeng Li, Xin Wang, Yang Chen</p>
     <p class="meta"><span class="badge">To appear: Proc. of WWW, 2026</span></p>
+    <p class="resource-links"><a href="data/FediScan_WWW26_CR.pdf">paper</a></p>
   </div>
 </div>
 
@@ -62,6 +64,7 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
     <p class="pub-title"><a href="https://www.researchgate.net/publication/397117317_Fine-Grained_Behavioral_Modeling_with_Graph_Neural_Networks_for_Financial_Identity_Theft_Detection">Fine-Grained Behavioral Modeling with Graph Neural Networks for Financial Identity Theft Detection</a></p>
     <p><strong>Min Gao</strong>, Qiongzan Ye, Yangbo Gao, Zhenhua Zhang, Yu Chen, Yupeng Li, Shutong Chen, Qingyuan Gong, Xin Wang, Yang Chen</p>
     <p class="meta"><span class="badge">To appear: TNSE, 2026</span></p>
+    
   </div>
 </div>
 
