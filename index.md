@@ -63,7 +63,8 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
   <div>
     <p class="pub-title"><a href="https://www.researchgate.net/publication/397117317_Fine-Grained_Behavioral_Modeling_with_Graph_Neural_Networks_for_Financial_Identity_Theft_Detection">Fine-Grained Behavioral Modeling with Graph Neural Networks for Financial Identity Theft Detection</a></p>
     <p><strong>Min Gao</strong>, Qiongzan Ye, Yangbo Gao, Zhenhua Zhang, Yu Chen, Yupeng Li, Shutong Chen, Qingyuan Gong, Xin Wang, Yang Chen</p>
-    <p class="meta"><span class="badge">To appear: TNSE, 2026</span></p>
+    <p class="meta"><span class="badge">TNSE, 2026</span></p>
+    <p class="resource-links"><a href="data/EnvIT_TNSE.pdf">paper</a></p>
     
   </div>
 </div>
