@@ -172,9 +172,9 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
 
 ## Professional Services
 
-- Session Chair: CIKM 2025
-- PC Member: BDSC 2023, ICSC 2025
+- Session Chair: CIKM 2025; SocialMeta 2024
+- PC Member: ICSC 2025; BDSC 2023
 - Web Chair: SocialMeta 2022
-- Invited Reviewer: TSC 2026; IPM 2026; JSC 2023–2026; TKDD 2025; TCSS 2024 
+- Invited Reviewer: ICWSM 2026; TSC 2026; IPM 2026; ESWA 2026; TKDD 2025; TCSS 2024; JSC 2023–2026
 
 --- 
