@@ -23,7 +23,7 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
     <div class="about-card">
       <h2>About Me</h2>
       <p>Hi, I am Min Gao. I am a final-year Ph.D. candidate at the College of Computer Science and Artificial Intelligence, Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener">Prof. Xin Wang</a>. I received my M.S. degree from the College of Computer and Cyber Security at Fujian Normal University, advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener">Prof. Li Xu</a>, and my B.S. degree from the College of Mathematics and Information Science at Anshan Normal University (GPA: 3.93/4).</p>
-      <p>My research interests lie in effective graph/hypergraph analysis and learning, LLMs on graphs, and real-world applications such as social bot detection and fraud detection.</p>
+      <p>My research interests lie in effective graph/hypergraph analysis and learning, LLMs on graphs, and real-world applications such as social bot detection and fraud detection. For more details, please refer to my [CV](data/Mgao_CV_ch_0302.pdf).</p>
     </div>
     <div class="chip-list">
       <span class="chip chip-llms">LLMs on Graphs</span>
