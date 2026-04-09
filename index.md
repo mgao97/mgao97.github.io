@@ -53,7 +53,7 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
   <div>
     <p class="pub-title">FediScan: Collaborative Social Bot Detection in the Fediverse</p>
     <p><strong>Min Gao</strong>, Wen Wen, Haoran Du, Qiang Duan, Yu Xiao, Yupeng Li, Xin Wang, Yang Chen</p>
-    <p class="meta"><span class="badge">To appear: Proc. of WWW, 2026</span></p>
+    <p class="meta"><span class="badge">To appear: Proc. of WWW (Oral), 2026</span></p>
     <p class="resource-links"><a href="data/FediScan_WWW26_CR.pdf">paper</a></p>
   </div>
 </div>
