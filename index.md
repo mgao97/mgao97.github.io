@@ -120,6 +120,9 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
 </div>
 
 ## Other Publications
+- [HIP: Model-agnostic hypergraph influence prediction via distance-centrality fusion and neural ODEs](https://www.sciencedirect.com/science/article/pii/S0957417426012704)  
+  Susu Zhang, Jingfeng Xie, Yang Chen, **Min Gao**, Cong Li, Chuang Liu, Xiuxiu Zhan  
+  [ESWA 2026] Expert Systems with Applications
 
 - [FediLive: A Framework for Collecting and Preprocessing Snapshots of Decentralized Online Social Networks](https://dl.acm.org/doi/10.1145/3701716.3715298)  
   Shaojie Min, Shaobin Wang, Yaxiao Luo, **Min Gao**, Qingyuan Gong, Yu Xiao, Yang Chen  
@@ -168,13 +171,13 @@ description: Min Gao – PhD student at Fudan University. Research in LLMs on gr
 ## Teaching Experience
 
 - Teaching Assistant  
-  COMP110045.01: Information Thinking and Practice, 2021 Fall, Fudan University
+  Information Thinking and Practice (2021 Fall); Online Social Networks (2024 Fall) Mobile Computing (2025 Fall) Fudan University
 
 ## Professional Services
 
 - Session Chair: CIKM 2025; SocialMeta 2024
 - PC Member: ICSC 2025; BDSC 2023
 - Web Chair: SocialMeta 2022
-- Invited Reviewer: ICWSM 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026
+- Invited Reviewer: ICWSM 2026; TIFS 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026
 
 --- 
