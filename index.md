@@ -44,6 +44,10 @@
           <span style="padding: 6px 16px; border-radius: 6px; background: #f6e8ee; color: #8a4762; font-size: 0.85rem; font-weight: 600; border: 1px solid #e8d0d9;">Fraud Detection</span>
           <span style="padding: 6px 16px; border-radius: 6px; background: #ececf6; color: #545a8a; font-size: 0.85rem; font-weight: 600; border: 1px solid #d0d0e8;">Social Network Analysis</span>
         </div>
+
+        <p style="line-height: 1.6;">
+            I am always actively looking for highly motivated students. Please email me your CV if you are interested in!
+        </p>
     </div>
 
     <div style="flex: 0 0 240px; margin-left: auto;">
