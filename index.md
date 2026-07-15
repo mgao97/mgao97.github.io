@@ -139,81 +139,63 @@
 </div>
 </div>
 
-<section class="info-card">
+<div class="pub-section-card">
 <h2>Other Publications</h2>
 
-<div class="other-pub">
-<a href="https://www.sciencedirect.com/science/article/pii/S0957417426012704" target="_blank" rel="noopener noreferrer">HIP: Model-agnostic hypergraph influence prediction via distance-centrality fusion and neural ODEs</a>
-
-Susu Zhang, Jingfeng Xie, Yang Chen, <strong>Min Gao</strong>, Cong Li, Chuang Liu, Xiuxiu Zhan
-
-<em>ESWA 2026</em> Expert Systems with Applications
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://www.sciencedirect.com/science/article/pii/S0957417426012704" target="_blank" rel="noopener noreferrer">HIP: Model-agnostic hypergraph influence prediction via distance-centrality fusion and neural ODEs</a>
+<div class="other-pub-authors">Susu Zhang, Jingfeng Xie, Yang Chen, <strong>Min Gao</strong>, Cong Li, Chuang Liu, Xiuxiu Zhan</div>
+<div class="other-pub-venue"><em>ESWA 2026</em> Expert Systems with Applications</div>
 </div>
 
-<div class="other-pub">
-<a href="https://dl.acm.org/doi/10.1145/3701716.3715298" target="_blank" rel="noopener noreferrer">FediLive: A Framework for Collecting and Preprocessing Snapshots of Decentralized Online Social Networks</a>
-
-Shaojie Min, Shaobin Wang, Yaxiao Luo, <strong>Min Gao</strong>, Qingyuan Gong, Yu Xiao, Yang Chen
-
-<em>WWW 2025</em> In Proceedings of the ACM on Web Conference (Resource Track)
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://dl.acm.org/doi/10.1145/3701716.3715298" target="_blank" rel="noopener noreferrer">FediLive: A Framework for Collecting and Preprocessing Snapshots of Decentralized Online Social Networks</a>
+<div class="other-pub-authors">Shaojie Min, Shaobin Wang, Yaxiao Luo, <strong>Min Gao</strong>, Qingyuan Gong, Yu Xiao, Yang Chen</div>
+<div class="other-pub-venue"><em>WWW 2025</em> In Proceedings of the ACM on Web Conference (Resource Track)</div>
 </div>
 
-<div class="other-pub">
-<a href="https://link.springer.com/chapter/10.1007/978-981-96-2373-0_5" target="_blank" rel="noopener noreferrer">RoleScan: Enhancing Social Bot Detection Using Social Role Vector</a>
-
-Wen Wen, <strong>Min Gao</strong>, Qingyuan Gong, Xin Wang, Yang Chen
-
-<em>ChineseCSCW 2024</em>
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://link.springer.com/chapter/10.1007/978-981-96-2373-0_5" target="_blank" rel="noopener noreferrer">RoleScan: Enhancing Social Bot Detection Using Social Role Vector</a>
+<div class="other-pub-authors">Wen Wen, <strong>Min Gao</strong>, Qingyuan Gong, Xin Wang, Yang Chen</div>
+<div class="other-pub-venue"><em>ChineseCSCW 2024</em></div>
 </div>
 
-<div class="other-pub">
-<a href="https://dl.acm.org/doi/10.1145/3698387.3699997" target="_blank" rel="noopener noreferrer">EGGPU: Enabling Efficient Large-Scale Network Analysis with Consumer-Grade GPUs</a>
-
-Jiawei Tang, <strong>Min Gao</strong>, Yu Xiao, Cong Li, and Yang Chen
-
-<em>SocialMeta 2024</em>
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://dl.acm.org/doi/10.1145/3698387.3699997" target="_blank" rel="noopener noreferrer">EGGPU: Enabling Efficient Large-Scale Network Analysis with Consumer-Grade GPUs</a>
+<div class="other-pub-authors">Jiawei Tang, <strong>Min Gao</strong>, Yu Xiao, Cong Li, and Yang Chen</div>
+<div class="other-pub-venue"><em>SocialMeta 2024</em></div>
 </div>
 
-<div class="other-pub">
-<a href="https://ieeexplore.ieee.org/document/9892383" target="_blank" rel="noopener noreferrer">Modeling Access Environment and Behavior Sequence for Financial Identity Theft Detection</a>
-
-Qiongzan Ye, Yangbo Gao, Zhenhua Zhang, Yu Chen, Yupeng Li, <strong>Min Gao</strong>, Shutong Chen, Xin Wang, Yang Chen
-
-<em>IJCNN 2022</em>
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://ieeexplore.ieee.org/document/9892383" target="_blank" rel="noopener noreferrer">Modeling Access Environment and Behavior Sequence for Financial Identity Theft Detection</a>
+<div class="other-pub-authors">Qiongzan Ye, Yangbo Gao, Zhenhua Zhang, Yu Chen, Yupeng Li, <strong>Min Gao</strong>, Shutong Chen, Xin Wang, Yang Chen</div>
+<div class="other-pub-venue"><em>IJCNN 2022</em></div>
 </div>
 
-<div class="other-pub">
-<a href="https://link.springer.com/article/10.1007/s00607-022-01125-x" target="_blank" rel="noopener noreferrer">Influence maximization based on SATS scheme in social networks</a>
-
-Xinxin Zhang, <strong>Min Gao</strong>, Li Xu, Zhaobin Zhou
-
-<em>Computing 2022</em>
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://link.springer.com/article/10.1007/s00607-022-01125-x" target="_blank" rel="noopener noreferrer">Influence maximization based on SATS scheme in social networks</a>
+<div class="other-pub-authors">Xinxin Zhang, <strong>Min Gao</strong>, Li Xu, Zhaobin Zhou</div>
+<div class="other-pub-venue"><em>Computing 2022</em></div>
 </div>
 
-<div class="other-pub">
-<a href="https://user.informatik.uni-goettingen.de/~ychen/papers/SCHOLAT-ChineseCSCW21.pdf" target="_blank" rel="noopener noreferrer">Understanding Scholar Networks: Taking SCHOLAT as an Example</a>
-
-<strong>Min Gao</strong>, Yang Chen, Qingyuan Gong, Xin Wang, Pan Hui
-
-<em>ChineseCSCW 2021</em>
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://user.informatik.uni-goettingen.de/~ychen/papers/SCHOLAT-ChineseCSCW21.pdf" target="_blank" rel="noopener noreferrer">Understanding Scholar Networks: Taking SCHOLAT as an Example</a>
+<div class="other-pub-authors"><strong>Min Gao</strong>, Yang Chen, Qingyuan Gong, Xin Wang, Pan Hui</div>
+<div class="other-pub-venue"><em>ChineseCSCW 2021</em></div>
 </div>
 
-<div class="other-pub">
-<a href="https://link.springer.com/chapter/10.1007/978-981-15-9031-3_15" target="_blank" rel="noopener noreferrer">An Efficient Influence Maximization Algorithm Based on Social Relationship Priority in Mobile Social Networks</a>
-
-Xinxin Zhang, Li Xu, and <strong>Min Gao</strong>
-
-<em>SocialSec 2020</em>
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://link.springer.com/chapter/10.1007/978-981-15-9031-3_15" target="_blank" rel="noopener noreferrer">An Efficient Influence Maximization Algorithm Based on Social Relationship Priority in Mobile Social Networks</a>
+<div class="other-pub-authors">Xinxin Zhang, Li Xu, and <strong>Min Gao</strong></div>
+<div class="other-pub-venue"><em>SocialSec 2020</em></div>
 </div>
 
-<div class="other-pub">
-<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/cpe.5677" target="_blank" rel="noopener noreferrer">Influence maximization based on activity degree in mobile social networks</a>
-
-<strong>Min Gao</strong>, Li Xu, Limei Lin, Yanze Huang, and Xinxin Zhang
-
-<em>CCPE 2020</em> Concurrency and Computation: Practice and Experience
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/cpe.5677" target="_blank" rel="noopener noreferrer">Influence maximization based on activity degree in mobile social networks</a>
+<div class="other-pub-authors"><strong>Min Gao</strong>, Li Xu, Limei Lin, Yanze Huang, and Xinxin Zhang</div>
+<div class="other-pub-venue"><em>CCPE 2020</em> Concurrency and Computation: Practice and Experience</div>
 </div>
-</section>
+</div>
 
 <section class="info-card">
 <h2>Awards</h2>
