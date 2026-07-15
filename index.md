@@ -1,7 +1,7 @@
 ---
 title: Min Gao
 layout: default
-description: Min Gao (高敏) – Lecturer at East China University of Science and Technology. Research in LLMs on graphs, network science, graph representation learning, social bot & fraud detection.
+description: Min Gao – Lecturer at the School of Information Science and Engineering, East China University of Science and Technology. Research in LLMs on graphs, network science, graph representation learning, social bot & fraud detection.
 ---
 
 # Min Gao (高敏)
@@ -10,10 +10,9 @@ description: Min Gao (高敏) – Lecturer at East China University of Science a
     <img class="hero-avatar" src="images/profile_photo.jpeg" alt="Portrait of Min Gao" loading="lazy">
     <div class="avatar-caption">
       <p class="name">Min Gao</p>
-      <p class="name-cn">高敏</p>
-      <p class="role">Lecturer<br>East China University of Science & Technology 🇨🇳</p>
+      <p class="role">Lecturer<br>East China University of Science and Technology</p>
       <div class="avatar-links badge-links">
-        <a class="btn-email" href="mailto:mgao21@m.fudan.edu.cn">Email</a>
+        <a class="btn-email" href="mailto:mgao9704@gmail.com">Email</a>
         <a class="btn-scholar" href="https://scholar.google.com/citations?user=kVRLSrIAAAAJ&hl=zh-CN&oi=sra" target="_blank" rel="noopener">Google Scholar</a>
         <a class="btn-rg" href="https://www.researchgate.net/profile/Min-Gao-56?ev=hdr_xprf" target="_blank" rel="noopener">ResearchGate</a>
         <a class="btn-github" href="https://github.com/mgao97" target="_blank" rel="noopener">GitHub</a>
@@ -24,15 +23,15 @@ description: Min Gao (高敏) – Lecturer at East China University of Science a
   <div>
     <div class="about-card">
       <h2>About Me</h2>
-      <p>Hi, I am <strong>Min Gao (高敏)</strong>. I am currently a Lecturer at the School of Information Science and Engineering at <a href="https://www.ecust.edu.cn/" target="_blank" rel="noopener">East China University of Science and Technology</a>.</p>
-      <p>I received my Ph.D. degree from the College of Computer Science and Artificial Intelligence at <a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener">Fudan University</a>, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener">Prof. Xin Wang</a>. I received my M.S. degree from Fujian Normal University (advised by Prof. Li Xu) and my B.S. degree from Anshan Normal University (GPA: 3.93/4).</p>
+      <p>Hi, I am <strong>Min Gao</strong>. I am currently a Lecturer at the School of Information Science and Engineering, East China University of Science and Technology.</p>
+      <p>I received my Ph.D. degree from the College of Computer Science and Artificial Intelligence at Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener">Prof. Xin Wang</a>. I received my M.S. degree from Fujian Normal University (advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener">Prof. Li Xu) and my B.S. degree from Anshan Normal University (GPA: 3.93/4).</p>
       <p>My research focuses on effective graph/hypergraph analysis and learning, LLMs on graphs, with real-world applications such as social bot detection and fraud detection.</p>
     </div>
 
-    <div class="about-card" style="margin-top:10px">
+    <!--<div class="about-card" style="margin-top:10px">
       <h3 style="margin:0 0 6px;font-size:16px">Contact</h3>
-      <p style="margin:0">📍 Office: East China University of Science and Technology, Shanghai, China 🇨🇳<br>📧 Email: mgao21 [at] m.fudan.edu.cn</p>
-    </div>
+      <p style="margin:0">📍 Office: East China University of Science and Technology, Shanghai, China 🇨🇳<br>📧 Email: mgao9704@gmail.com</p>
+    </div>-->
 
     <div class="chip-list" style="margin-top:10px">
       <span class="chip chip-llms">LLMs on Graphs</span>
@@ -187,6 +186,6 @@ description: Min Gao (高敏) – Lecturer at East China University of Science a
 - Session Chair: WWW 2026; CIKM 2025; SocialMeta 2024
 - PC Member: ICSC 2025; BDSC 2023
 - Web Chair: SocialMeta 2022
-- Invited Reviewer: ICWSM 2026; TIFS 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026
+- Invited Reviewer: ICWSM 2026; Neurocomputing 2026; TIFS 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026
 
 ---
