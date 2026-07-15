@@ -124,12 +124,10 @@ Her research interests include graph learning, hypergraph analysis, LLMs on grap
 <section class="info-card">
 <h2>Other Publications</h2>
 
-<div class="other-pub">
-<a href="https://www.sciencedirect.com/science/article/pii/S0957417426012704" target="_blank" rel="noopener noreferrer">HIP: Model-agnostic hypergraph influence prediction via distance-centrality fusion and neural ODEs</a>
-
-Susu Zhang, Jingfeng Xie, Yang Chen, <strong>Min Gao</strong>, Cong Li, Chuang Liu, Xiuxiu Zhan
-
-<em>ESWA 2026</em> Expert Systems with Applications
+<div class="other-pub-item">
+<a class="other-pub-title" href="https://www.sciencedirect.com/science/article/pii/S0957417426012704" target="_blank" rel="noopener noreferrer">HIP: Model-agnostic hypergraph influence prediction via distance-centrality fusion and neural ODEs</a>
+<div class="other-pub-authors">Susu Zhang, Jingfeng Xie, Yang Chen, <strong>Min Gao</strong>, Cong Li, Chuang Liu, Xiuxiu Zhan</div>
+<div class="other-pub-venue"><em>ESWA 2026</em> Expert Systems with Applications</div>
 </div>
 
 <div class="other-pub">
