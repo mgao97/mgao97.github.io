@@ -1,4 +1,6 @@
-Min Gao 高敏
+<div style="text-align:center; font-size: 2rem; font-weight: bold;">
+    Min Gao 高敏
+</div>
 <div style="text-align:center; margin-bottom: 1.25rem;">
 <div style="font-size: 1.05rem; margin-top: -0.25rem;">Lecturer, School of Information Science and Engineering</div>
 <div style="font-size: 1.05rem;">East China University of Science and Technology</div>
