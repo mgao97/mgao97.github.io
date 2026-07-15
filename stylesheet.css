@@ -450,4 +450,66 @@
     .edu-grid {
       grid-template-columns: 1fr;
     }
+    .nav-links {
+      display: none;
+    }
+  }
+
+  /* Navigation Bar */
+  .nav-bar {
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 16px;
+  }
+
+  .nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+  }
+
+  .nav-brand {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .nav-brand:hover {
+    color: var(--link);
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .nav-link {
+    display: inline-block;
+    padding: 8px 14px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 6px;
+    transition: color .15s ease, background .15s ease;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    color: var(--link);
+    background: #f0f5ff;
+  }
+
+  .nav-link.active {
+    color: var(--link);
+    background: #e8f0fe;
+    font-weight: 700;
   }
