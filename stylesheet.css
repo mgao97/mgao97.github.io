@@ -309,6 +309,16 @@
     border-color: var(--link);
     transform: translateY(-2px);
   }
+
+  .other-pub {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 13.5px;
+    line-height: 1.7;
+  }
+  .other-pub:last-child {
+    border-bottom: none;
+  }
   
   .pub-title {
     font-weight: 700;

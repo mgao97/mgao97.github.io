@@ -28,11 +28,6 @@ description: Min Gao – Lecturer at the School of Information Science and Engin
       <p>My research focuses on effective graph/hypergraph analysis and learning, LLMs on graphs, with real-world applications such as social bot detection and fraud detection.</p>
     </div>
 
-    <!--<div class="about-card" style="margin-top:10px">
-      <h3 style="margin:0 0 6px;font-size:16px">Contact</h3>
-      <p style="margin:0">📍 Office: East China University of Science and Technology, Shanghai, China 🇨🇳<br>📧 Email: mgao9704@gmail.com</p>
-    </div>-->
-
     <div class="chip-list" style="margin-top:10px">
       <span class="chip chip-llms">LLMs on Graphs</span>
       <span class="chip chip-graph">Graph / Hypergraph Learning</span>
@@ -128,41 +123,59 @@ description: Min Gao – Lecturer at the School of Information Science and Engin
 
 ## Other Publications
 
-- [HIP: Model-agnostic hypergraph influence prediction via distance-centrality fusion and neural ODEs](https://www.sciencedirect.com/science/article/pii/S0957417426012704)  
-  Susu Zhang, Jingfeng Xie, Yang Chen, **Min Gao**, Cong Li, Chuang Liu, Xiuxiu Zhan  
-  [ESWA 2026] Expert Systems with Applications
+<div class="other-pub">
+[HIP: Model-agnostic hypergraph influence prediction via distance-centrality fusion and neural ODEs](https://www.sciencedirect.com/science/article/pii/S0957417426012704)<br>
+Susu Zhang, Jingfeng Xie, Yang Chen, **Min Gao**, Cong Li, Chuang Liu, Xiuxiu Zhan<br>
+<em>ESWA 2026</em> Expert Systems with Applications
+</div>
 
-- [FediLive: A Framework for Collecting and Preprocessing Snapshots of Decentralized Online Social Networks](https://dl.acm.org/doi/10.1145/3701716.3715298)  
-  Shaojie Min, Shaobin Wang, Yaxiao Luo, **Min Gao**, Qingyuan Gong, Yu Xiao, Yang Chen  
-  [WWW 2025] In Proceedings of the ACM on Web Conference (Resource Track)
+<div class="other-pub">
+[FediLive: A Framework for Collecting and Preprocessing Snapshots of Decentralized Online Social Networks](https://dl.acm.org/doi/10.1145/3701716.3715298)<br>
+Shaojie Min, Shaobin Wang, Yaxiao Luo, **Min Gao**, Qingyuan Gong, Yu Xiao, Yang Chen<br>
+<em>WWW 2025</em> In Proceedings of the ACM on Web Conference (Resource Track)
+</div>
 
-- [RoleScan: Enhancing Social Bot Detection Using Social Role Vector](https://link.springer.com/chapter/10.1007/978-981-96-2373-0_5)  
-  Wen Wen, **Min Gao**, Qingyuan Gong, Xin Wang, Yang Chen  
-  [ChineseCSCW 2024]
+<div class="other-pub">
+[RoleScan: Enhancing Social Bot Detection Using Social Role Vector](https://link.springer.com/chapter/10.1007/978-981-96-2373-0_5)<br>
+Wen Wen, **Min Gao**, Qingyuan Gong, Xin Wang, Yang Chen<br>
+<em>ChineseCSCW 2024</em>
+</div>
 
-- [EGGPU: Enabling Efficient Large-Scale Network Analysis with Consumer-Grade GPUs](https://dl.acm.org/doi/10.1145/3698387.3699997)  
-  Jiawei Tang, **Min Gao**, Yu Xiao, Cong Li, and Yang Chen  
-  [SocialMeta 2024]
+<div class="other-pub">
+[EGGPU: Enabling Efficient Large-Scale Network Analysis with Consumer-Grade GPUs](https://dl.acm.org/doi/10.1145/3698387.3699997)<br>
+Jiawei Tang, **Min Gao**, Yu Xiao, Cong Li, and Yang Chen<br>
+<em>SocialMeta 2024</em>
+</div>
 
-- [Modeling Access Environment and Behavior Sequence for Financial Identity Theft Detection](https://ieeexplore.ieee.org/document/9892383)  
-  Qiongzan Ye, Yangbo Gao, Zhenhua Zhang, Yu Chen, Yupeng Li, **Min Gao**, Shutong Chen, Xin Wang, Yang Chen  
-  [IJCNN 2022]
+<div class="other-pub">
+[Modeling Access Environment and Behavior Sequence for Financial Identity Theft Detection](https://ieeexplore.ieee.org/document/9892383)<br>
+Qiongzan Ye, Yangbo Gao, Zhenhua Zhang, Yu Chen, Yupeng Li, **Min Gao**, Shutong Chen, Xin Wang, Yang Chen<br>
+<em>IJCNN 2022</em>
+</div>
 
-- [Influence maximization based on SATS scheme in social networks](https://link.springer.com/article/10.1007/s00607-022-01125-x)  
-  Xinxin Zhang, **Min Gao**, Li Xu, Zhaobin Zhou  
-  [Computing 2022]
+<div class="other-pub">
+[Influence maximization based on SATS scheme in social networks](https://link.springer.com/article/10.1007/s00607-022-01125-x)<br>
+Xinxin Zhang, **Min Gao**, Li Xu, Zhaobin Zhou<br>
+<em>Computing 2022</em>
+</div>
 
-- [Understanding Scholar Networks: Taking SCHOLAT as an Example](https://user.informatik.uni-goettingen.de/~ychen/papers/SCHOLAT-ChineseCSCW21.pdf)  
-  **Min Gao**, Yang Chen, Qingyuan Gong, Xin Wang, Pan Hui  
-  [ChineseCSCW 2021]
+<div class="other-pub">
+[Understanding Scholar Networks: Taking SCHOLAT as an Example](https://user.informatik.uni-goettingen.de/~ychen/papers/SCHOLAT-ChineseCSCW21.pdf)<br>
+**Min Gao**, Yang Chen, Qingyuan Gong, Xin Wang, Pan Hui<br>
+<em>ChineseCSCW 2021</em>
+</div>
 
-- [An Efficient Influence Maximization Algorithm Based on Social Relationship Priority in Mobile Social Networks](https://link.springer.com/chapter/10.1007/978-981-15-9031-3_15)  
-  Xinxin Zhang, Li Xu, and **Min Gao**  
-  [SocialSec 2020]
+<div class="other-pub">
+[An Efficient Influence Maximization Algorithm Based on Social Relationship Priority in Mobile Social Networks](https://link.springer.com/chapter/10.1007/978-981-15-9031-3_15)<br>
+Xinxin Zhang, Li Xu, and **Min Gao**<br>
+<em>SocialSec 2020</em>
+</div>
 
-- [Influence maximization based on activity degree in mobile social networks](https://onlinelibrary.wiley.com/doi/epdf/10.1002/cpe.5677)  
-  **Min Gao**, Li Xu, Limei Lin, Yanze Huang, and Xinxin Zhang  
-  [CCPE 2020] Concurrency and Computation: Practice and Experience
+<div class="other-pub">
+[Influence maximization based on activity degree in mobile social networks](https://onlinelibrary.wiley.com/doi/epdf/10.1002/cpe.5677)<br>
+**Min Gao**, Li Xu, Limei Lin, Yanze Huang, and Xinxin Zhang<br>
+<em>CCPE 2020</em> Concurrency and Computation: Practice and Experience
+</div>
 
 ## Awards
 
@@ -178,14 +191,13 @@ description: Min Gao – Lecturer at the School of Information Science and Engin
 
 ## Teaching Experience
 
-- Teaching Assistant  
-  Information Thinking and Practice (2021 Fall); Online Social Networks (2024 Fall); Mobile Computing (2025 Fall); Fudan University
+- Teaching Assistant — Information Thinking and Practice (2021 Fall); Online Social Networks (2024 Fall); Mobile Computing (2025 Fall); Fudan University
 
 ## Professional Services
 
-- Session Chair: WWW 2026; CIKM 2025; SocialMeta 2024
-- PC Member: ICSC 2025; BDSC 2023
-- Web Chair: SocialMeta 2022
-- Invited Reviewer: ICWSM 2026; Neurocomputing 2026; TIFS 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026
+- <strong>Session Chair:</strong> WWW 2026; CIKM 2025; SocialMeta 2024
+- <strong>PC Member:</strong> ICSC 2025; BDSC 2023
+- <strong>Web Chair:</strong> SocialMeta 2022
+- <strong>Invited Reviewer:</strong> ICWSM 2026; Neurocomputing 2026; TIFS 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026
 
 ---
