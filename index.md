@@ -27,6 +27,7 @@ description: Min Gao – Lecturer at the School of Information Science and Engin
       <p>I received my Ph.D. degree from the College of Computer Science and Artificial Intelligence at Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener">Prof. Xin Wang</a>. I received my M.S. degree from Fujian Normal University (advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener">Prof. Li Xu) and my B.S. degree from Anshan Normal University (GPA: 3.93/4).</p>
       <p>My research focuses on effective graph/hypergraph analysis and learning, LLMs on graphs, with real-world applications such as social bot detection and fraud detection.</p>
     </div>
+  <div class="about-card" style="margin-top:10px">
 
     <div class="chip-list" style="margin-top:10px">
       <span class="chip chip-llms">LLMs on Graphs</span>
