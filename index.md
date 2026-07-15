@@ -1,47 +1,39 @@
-title: Min Gao
-layout: default
-description: Min Gao – Lecturer at the School of Information Science and Engineering, East China University of Science and Technology. Research in LLMs on graphs, network science, graph representation learning, social bot and fraud detection.
-
-Min Gao (高敏)
-<div class="hero-card">
-<div class="hero-left">
-<img class="hero-avatar" src="images/profile_photo.jpeg" alt="Portrait of Min Gao" loading="lazy">
-</div>
-
-<div class="hero-right">
-<p class="name">Min Gao</p>
-<p class="role">Lecturer
-School of Information Science and Engineering
-East China University of Science and Technology</p>
-
-<div class="avatar-links badge-links">
-<a class="btn-email" href="mailto:mgao9704@gmail.com">Email</a>
-<a class="btn-scholar" href="https://scholar.google.com/citations?user=kVRLSrIAAAAJ&hl=zh-CN&oi=sra" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-<a class="btn-rg" href="https://www.researchgate.net/profile/Min-Gao-56?ev=hdr_xprf" target="_blank" rel="noopener noreferrer">ResearchGate</a>
-<a class="btn-github" href="https://github.com/mgao97" target="_blank" rel="noopener noreferrer">GitHub</a>
-<a class="btn-cv" href="data/Mgao_CV_ch_2605.pdf">CV</a>
-</div>
+Min Gao 高敏
+<div style="text-align:center; margin-bottom: 1.25rem;">
+<div style="font-size: 1.05rem; margin-top: -0.25rem;">Lecturer, School of Information Science and Engineering</div>
+<div style="font-size: 1.05rem;">East China University of Science and Technology</div>
+<div style="margin-top: 0.6rem; line-height: 1.8;">
+<a href="mailto:mgao9704@gmail.com">Email</a> |
+<a href="https://scholar.google.com/citations?user=kVRLSrIAAAAJ&hl=zh-CN&oi=sra" target="_blank" rel="noopener noreferrer">Google Scholar</a> |
+<a href="https://www.researchgate.net/profile/Min-Gao-56?ev=hdr_xprf" target="_blank" rel="noopener noreferrer">ResearchGate</a> |
+<a href="https://github.com/mgao97" target="_blank" rel="noopener noreferrer">GitHub</a> |
+<a href="data/Mgao_CV_ch_2605.pdf">CV</a>
 </div>
 </div>
 
-<div class="card-grid">
-<section class="info-card">
-<h2>About Me</h2>
-<p>Min Gao is a Lecturer at the School of Information Science and Engineering, East China University of Science and Technology.</p>
-<p>She received her Ph.D. degree from the College of Computer Science and Artificial Intelligence, Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener noreferrer">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener noreferrer">Prof. Xin Wang</a>.</p>
-<p>She received her M.S. degree from Fujian Normal University, advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener noreferrer">Prof. Li Xu</a>, and her B.S. degree from Anshan Normal University.</p>
-<p>Her research interests include graph learning, hypergraph analysis, LLMs on graphs, social bot detection, and fraud detection.</p>
-</section>
+<div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 2rem; flex-wrap: wrap;">
+<div style="flex: 1 1 580px; min-width: 300px;">
+<p>
+Min Gao is a Lecturer at the School of Information Science and Engineering, East China University of Science and Technology. She received her Ph.D. degree from the College of Computer Science and Artificial Intelligence, Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener noreferrer">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener noreferrer">Prof. Xin Wang</a>. She received her M.S. degree from Fujian Normal University, advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener noreferrer">Prof. Li Xu</a>, and her B.S. degree from Anshan Normal University.
+</p>
 
-<section class="info-card">
+<p>
+Her research interests include graph learning, hypergraph analysis, LLMs on graphs, social bot detection, fraud detection, and social network analysis. Her recent work focuses on effective learning methods for complex graph and hypergraph data, with applications to trust, safety, and behavior modeling in online platforms.
+</p>
+
 <h2>Research Interests</h2>
-<div class="chip-list">
-<span class="chip chip-llms">LLMs on Graphs</span>
-<span class="chip chip-graph">Graph / Hypergraph Learning</span>
-<span class="chip chip-bot">Social Bot Detection</span>
-<span class="chip chip-fraud">Fraud Detection</span>
+<div style="display:flex; flex-wrap:wrap; gap:0.75rem; margin-top:0.5rem;">
+<span style="display:inline-block; padding:0.45rem 0.9rem; border-radius:999px; background:#e8eef9; color:#2f5aa8; font-size:0.95rem; line-height:1.2;">LLMs on Graphs</span>
+<span style="display:inline-block; padding:0.45rem 0.9rem; border-radius:999px; background:#e7f3ec; color:#2f6f53; font-size:0.95rem; line-height:1.2;">Graph / Hypergraph Learning</span>
+<span style="display:inline-block; padding:0.45rem 0.9rem; border-radius:999px; background:#f7efe3; color:#94612b; font-size:0.95rem; line-height:1.2;">Social Bot Detection</span>
+<span style="display:inline-block; padding:0.45rem 0.9rem; border-radius:999px; background:#f6e8ee; color:#8a4762; font-size:0.95rem; line-height:1.2;">Fraud Detection</span>
+<span style="display:inline-block; padding:0.45rem 0.9rem; border-radius:999px; background:#ececf6; color:#545a8a; font-size:0.95rem; line-height:1.2;">Social Network Analysis</span>
 </div>
-</section>
+</div>
+
+<div style="flex: 0 0 240px; margin-left: auto;">
+<img src="images/profile_photo.jpeg" alt="Portrait of Min Gao" loading="lazy" style="width: 100%; max-width: 230px; border-radius: 6px; display: block; margin: 0 auto;">
+</div>
 </div>
 
 <section class="info-card">
@@ -56,7 +48,7 @@ East China University of Science and Technology</p>
 </ul>
 </section>
 
-Selected Publications
+<h2>Selected Publications</h2>
 <div class="pub-card">
 <img src="images/FediScan.png" alt="FediScan cover image" loading="lazy">
 <div>
