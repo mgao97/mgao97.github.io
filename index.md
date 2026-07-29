@@ -200,6 +200,7 @@
 <section class="info-card">
 <h2>Awards</h2>
 <ul>
+<li> <strong>TSC Best Reviewer Award</strong>, ACM Transactions on Social Computing (TSC)</li>
 <li> <strong>Student Travel Grant</strong>, ACM SIGIR</li>
 <li> <strong>Open Source Pioneer Award (Team Leader)</strong>, Fudan University</li>
 <li> <strong>Open Source Security Reward Program Outstanding Student (Third Prize)</strong>, CSAC</li>
