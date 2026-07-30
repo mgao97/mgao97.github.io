@@ -29,11 +29,11 @@
 <div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 2rem; flex-wrap: wrap;">
     <div style="flex: 1 1 580px; min-width: 300px;">
         <p style="line-height: 1.6;">
-            Min Gao is a Lecturer at the School of Information Science and Engineering, East China University of Science and Technology. She received her Ph.D. degree from the College of Computer Science and Artificial Intelligence, Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener noreferrer">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener noreferrer">Prof. Xin Wang</a>. She received her M.S. degree from Fujian Normal University, advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener noreferrer">Prof. Li Xu</a>, and her B.S. degree from Anshan Normal University.
+            I am a Lecturer in the School of Information Science and Engineering at East China University of Science and Technology. I received my Ph.D. degree from the College of Computer Science and Artificial Intelligence, Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener noreferrer">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener noreferrer">Prof. Xin Wang</a>. I received my M.S. degree from Fujian Normal University, advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener noreferrer">Prof. Li Xu</a>, and my B.S. degree from Anshan Normal University.
         </p>
 
         <p style="line-height: 1.6;">
-            Her research interests include graph learning, hypergraph analysis, LLMs on graphs, social bot detection, fraud detection, and social network analysis. Her recent work focuses on effective learning methods for complex graph and hypergraph data, with applications to trust, safety, and behavior modeling in online platforms.
+            My research interests include data mining, graph/hypergraph learning, and graph for LLMs. My recent work focuses on effective learning methods for complex graph and hypergraph data, with applications to trust, safety, and behavior modeling in online platforms.
         </p>
 
         <!-- 研究兴趣标签 -->
@@ -61,10 +61,12 @@
 <ul class="news-list">
 <li><strong>[2026/02]</strong> We released <a href="https://easy-graph.github.io/" target="_blank" rel="noopener noreferrer">EasyGraph 1.6</a>.</li>
 <li><strong>[2026/01]</strong> EasyGraph reached over <strong>1 million downloads</strong> on pip.</li>
-<li><strong>[2026/01]</strong> "FediScan" was accepted by <a href="https://www2026.thewebconf.org/" target="_blank" rel="noopener noreferrer">WWW 2026</a> (Oral Presentation).</li>
-<li><strong>[2025/10]</strong> "Fine-Grained Behavioral Modeling..." was accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902" target="_blank" rel="noopener noreferrer">IEEE TNSE</a>.</li>
+<li><strong>[2026/01]</strong> Our paper "FediScan: Collaborative Social Bot Detection in the Fediverse" was accepted by <a href="https://www2026.thewebconf.org/" target="_blank" rel="noopener noreferrer">WWW 2026</a> (Oral Presentation).</li>
+<li><strong>[2025/10]</strong> Our paper "Fine-Grained Behavioral Modeling with Graph Neural Networks for Financial Identity Theft Detection" was accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902" target="_blank" rel="noopener noreferrer">IEEE TNSE</a>.</li>
 <li><strong>[2025/08]</strong> Two papers were accepted by <a href="https://cikm2025.org/" target="_blank" rel="noopener noreferrer">ACM CIKM 2025</a>.</li>
-<li><strong>[2025/05]</strong> "EasyHypergraph" was accepted by <a href="https://www.nature.com/palcomms/" target="_blank" rel="noopener noreferrer">HSSC (Nature Portfolio)</a>.</li>
+<li><strong>[2025/05]</strong> Our paper "EasyHypergraph: an open-source software for fast and memory-saving analysis and learning of higher-order networks" was accepted by <a href="https://www.nature.com/palcomms/" target="_blank" rel="noopener noreferrer">HSSC (Nature Portfolio)</a>.</li>
+<li><strong>[2025/05]</strong> Our paper "Detecting compromised accounts caused by phone number recycling on e-commerce platforms: taking Meituan as an example" was accepted by <a href="https://www.fitee.zjujournals.com/en/home/" target="_blank" rel="noopener noreferrer">FITEE</a>.</li>
+<li><strong>[2025/05]</strong> Our paper "EasyGraph: A Multifunctional, Cross-Platform, and Effective Library for Interdisciplinary Network Analysis" was accepted by <a href="https://www.cell.com/patterns/home" target="_blank" rel="noopener noreferrer">Patterns (Cell Press)</a>.</li>
 </ul>
 </section>
 
@@ -209,7 +211,7 @@
 <li> <strong>Annual Outstanding Translator</strong>, AI Research Center</li>
 <li> <strong>Second Prize in the 9th National Mathematics Competition for College Students</strong>, Chinese Mathematical Society</li>
 <li> <strong>Second Prize for C Class in the 20th National English Competition for College Students</strong>, TEFL China</li>
-<li>[2015–2017] <strong>National Scholarship (highest honor in China)</strong>, Ministry of Education of China</li>
+<li> <strong>National Scholarship (highest honor in China)</strong>, Ministry of Education of China</li>
 </ul>
 </section>
 
