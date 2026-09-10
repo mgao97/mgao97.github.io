@@ -59,6 +59,7 @@
 <section class="info-card">
 <h2>News</h2>
 <ul class="news-list">
+<li><strong>[2026/06]</strong> Our paper "Beyond Retrieval: Incorporating Personality and Emotion into RAG-Based Conversational Agents" was accepted by <a href="https://icsc-conf.github.io/2026/index.html" target="_blank" rel="noopener noreferrer">ICSC 2026</a> (Oral Presentation).</li>
 <li><strong>[2026/02]</strong> We released <a href="https://easy-graph.github.io/" target="_blank" rel="noopener noreferrer">EasyGraph 1.6</a>.</li>
 <li><strong>[2026/01]</strong> EasyGraph reached over <strong>1 million downloads</strong> on pip.</li>
 <li><strong>[2026/01]</strong> Our paper "FediScan: Collaborative Social Bot Detection in the Fediverse" was accepted by <a href="https://www2026.thewebconf.org/" target="_blank" rel="noopener noreferrer">WWW 2026</a> (Oral Presentation).</li>
