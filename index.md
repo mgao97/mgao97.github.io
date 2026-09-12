@@ -227,8 +227,8 @@
 <h2>Professional Services</h2>
 <ul>
 <li><strong>Session Chair:</strong> WWW 2026; CIKM 2025; SocialMeta 2024</li>
-<li><strong>PC Member:</strong> ICSC 2025; BDSC 2023</li>
+<li><strong>PC Member:</strong> MMM 2026; ICSC 2025; BDSC 2023</li>
 <li><strong>Web Chair:</strong> SocialMeta 2022</li>
-<li><strong>Invited Reviewer:</strong> ICWSM 2026; Neurocomputing 2026; TIFS 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026</li>
+<li><strong>Invited Reviewer:</strong> WWW 2026; KDD 2026; ICWSM 2026; Neurocomputing 2026; TIFS 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026</li>
 </ul>
 </section>
