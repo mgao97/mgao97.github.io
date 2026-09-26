@@ -1,3 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Min Gao</title>
+<style>
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  a {
+    color: #1772d0;
+    text-decoration: none;
+  }
+  
+  a:focus,
+  a:hover {
+    color: #f09228;
+    text-decoration: none;
+  }
+  
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+  }
+  
+  strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  
+  heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+  }
+  
+  papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+  }
+  
+  name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+  }
+  
+  .one {
+    width: 160px;
+    height: 160px;
+    position: relative;
+  }
+  
+  .two {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+  }
+  
+  .fade {
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+  }
+  
+  span.highlight {
+    background-color: #ffffd0;
+  }
+  
+  :root {
+    --text: #222;
+    --muted: #5c6773;
+    --link: #1772d0;
+    --link-hover: #f09228;
+    --bg: #ffffff;
+    --border: #e5e8eb;
+    --card-bg: #fafbfc;
+    --card-hover-bg: #e9f2ff;
+    --about-bg: #f6f8fb;
+    --btn-email-bg: #e8f0fe;
+    --btn-scholar-bg: #e7f3ff;
+    --btn-rg-bg: #e9f7f2;
+    --btn-github-bg: #f4f6f8;
+  }
+  
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin: 8px 0 12px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin: 20px 0 10px;
+    font-weight: 700;
+  }
+  
+  p {
+    margin: 8px 0 12px;
+    color: var(--text);
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin: 8px 0 12px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .section-compact p { margin: 6px 0 8px; }
+  .section-compact h2 { margin: 16px 0 8px; }
+  
+  .hero {
+    display: grid;
+    grid-template-columns: 0.55fr 1.45fr;
+    gap: 20px;
+    align-items: start;
+    margin: 8px 0 12px;
+  }
+  
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  
+  .hero-avatar {
+    width: 120px;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    justify-self: center;
+  }
+  
+  .avatar-caption {
+    text-align: center;
+    margin-top: 8px;
+  }
+  .avatar-caption .name {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 2px 0 2px;
+  }
+  .avatar-caption .name-cn {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--link);
+    margin: 0 0 4px;
+  }
+  .avatar-caption .role {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .badge-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 8px 0 12px;
+    justify-content: center;
+  }
+  .badge-links a {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text);
+    background: var(--btn-scholar-bg);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+  .badge-links a:hover {
+    color: var(--link-hover);
+    border-color: var(--link);
+    background: #f0f5ff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+  .badge-links .btn-email { background: var(--btn-email-bg); }
+  .badge-links .btn-scholar { background: var(--btn-scholar-bg); }
+  .badge-links .btn-rg { background: var(--btn-rg-bg); }
+  .badge-links .btn-github { background: var(--btn-github-bg); }
+  .badge-links .btn-cv { background: #fff3e0; color: #e65100; border-color: #ffcc80; font-weight: 700; }
+  
+  .about-card {
+    background: var(--about-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .info-card {
+    --card-accent: #c9d2dd;
+    --card-tint: #f6f8fb;
+    position: relative;
+    background: linear-gradient(135deg, var(--card-tint) 0%, #fdfdfe 52%, var(--bg) 100%);
+    border: 1px solid var(--border);
+    border-left: 5px solid var(--card-accent);
+    border-radius: 12px;
+    padding: 12px 20px 18px;
+    margin: 20px 0;
+    box-shadow: 0 1px 3px rgba(30, 40, 60, 0.05), 0 4px 14px rgba(30, 40, 60, 0.04);
+    transition: box-shadow .2s ease, transform .2s ease;
+  }
+  .info-card:hover {
+    box-shadow: 0 2px 6px rgba(30, 40, 60, 0.07), 0 10px 26px rgba(30, 40, 60, 0.08);
+    transform: translateY(-1px);
+  }
+
+  /* Per-section highlight: accent bar + soft tint echo the title pill */
+  .card-news     { --card-accent: #f2a35c; --card-tint: #fff4e6; }
+  .card-selected { --card-accent: #e3b93e; --card-tint: #fdf6e0; }
+  .card-other    { --card-accent: #5cb88a; --card-tint: #ebf7f0; }
+  .card-awards   { --card-accent: #9b74d4; --card-tint: #f5effc; }
+  .card-teaching { --card-accent: #5c93d4; --card-tint: #ecf3fc; }
+  .card-services { --card-accent: #d4718f; --card-tint: #fdf0f4; }
+  .info-card h2 {
+    margin: 6px 0 12px;
+  }
+
+  /* Section header pills: icon + title on a pastel chip */
+  .section-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 16px;
+    border-radius: 999px;
+    font-size: 16.5px;
+    line-height: 1.2;
+    margin: 4px 0 12px;
+    color: #1c1c1c;
+  }
+  .section-title svg {
+    width: 17px;
+    height: 17px;
+    flex: none;
+  }
+  .sec-news      { background: #ffe3c2; }
+  .sec-selected  { background: #fbe7b1; }
+  .sec-other     { background: #d9f0e4; }
+  .sec-awards    { background: #eadff7; }
+  .sec-teaching  { background: #d8e9fb; }
+  .sec-services  { background: #fadce5; }
+
+  .news-list {
+    list-style: disc;
+    padding-left: 22px;
+    margin: 8px 0 10px;
+  }
+  .news-list li {
+    margin: 6px 0;
+    line-height: 1.55;
+  }
+  
+  .chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 6px 0 10px;
+  }
+  .chip {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #f3f5f7;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .chip-llms { background: #e8f0fe; color: #1f3b7a; }
+  .chip-graph { background: #edf7f4; color: #20604f; }
+  .chip-bot { background: #fff6eb; color: #7a3d0c; }
+  .chip-fraud { background: #f6eef4; color: #6a2343; }
+  .chip:hover { transform: translateY(-1px); box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  
+  /* Selected publications: paged cards, 2 per page, Previous/Next below */
+  .pub-pager {
+    margin: 4px 0 6px;
+  }
+
+  .pub-page {
+    display: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    align-items: stretch;
+  }
+  .pub-page.active {
+    display: grid;
+    animation: pubFade .35s ease;
+  }
+  @keyframes pubFade {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  .pub-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #f6f6f4;
+    border-radius: 8px;
+    padding: 20px 22px 18px;
+  }
+
+  .pub-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .pub-card-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #1c1c1c;
+  }
+  .pub-card-label svg {
+    width: 16px;
+    height: 16px;
+  }
+  .pub-card-date {
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  .pub-card-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
+  }
+  .pub-card-title a { color: inherit; }
+  .pub-card-title a:hover { color: var(--link); }
+
+  .pub-card-authors {
+    font-size: 13.5px;
+    line-height: 1.65;
+    margin: 0;
+  }
+  .pub-card-venue {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  .pub-card-bottom {
+    margin-top: auto;
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 14px;
+  }
+  .pub-card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+  }
+  .pub-card-tags {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .pub-card-tag {
+    font-weight: 700;
+    font-size: 13.5px;
+  }
+  .pub-card-links {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .pub-card-links a { margin-left: 12px; }
+  .pub-card-links a:first-child { margin-left: 0; }
+
+  /* dataset platform badge, bottom-left next to the topic tag */
+  .data-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 11.5px;
+    font-weight: 700;
+    line-height: 1.6;
+    white-space: nowrap;
+  }
+  .pill-mastodon  { background: #eceafd; color: #4436c7; border: 1px solid #cfc9f8; }
+  .pill-twitter   { background: #eef1f4; color: #1d2733; border: 1px solid #d9e0e7; }
+  .pill-meituan   { background: #fff6d9; color: #8a6d00; border: 1px solid #f0e2a8; }
+  .pill-easygraph { background: #e7f3ec; color: #2f6f53; border: 1px solid #d0e8dd; }
+  .pill-seres     { background: #ffffff; color: #1a1a1a; border: 1px solid #d4d4da; }
+  .data-pill img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    border-radius: 3px;
+  }
+
+  /* per-paper framework figure, bottom-right, keeps clear of links */
+  .pub-card-fig {
+    flex: 0 0 auto;
+    line-height: 0;
+    align-self: flex-end;
+  }
+  .pub-card-fig img {
+    width: 158px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #e3e3df;
+    background: #ffffff;
+  }
+
+  .pub-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 18px;
+  }
+  .pub-btn {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 24px;
+    background: #fff;
+    color: #1c1c1c;
+    border: 1.5px solid #1c1c1c;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background .15s ease;
+  }
+  .pub-btn:hover:not(:disabled) { background: #efefef; }
+  .pub-btn:disabled {
+    border-color: #c9c9c9;
+    color: #c9c9c9;
+    background: #f1f1f1;
+    cursor: default;
+  }
+  .pub-counter {
+    color: var(--muted);
+    font-size: 13px;
+    min-width: 42px;
+    text-align: center;
+  }
+
+  .other-pub {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 13.5px;
+    line-height: 1.7;
+  }
+  .other-pub:last-child {
+    border-bottom: none;
+  }
+
+  /* Other publications: plain list under the pill title */
+  .other-list {
+    margin: 4px 0 6px;
+  }
+
+  .other-pub-item {
+    padding: 10px 4px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 13.5px;
+    line-height: 1.7;
+    max-width: 760px;
+  }
+  .other-pub-item:last-child {
+    border-bottom: none;
+  }
+  .other-pub-item:hover {
+    border-bottom-color: var(--link);
+  }
+  .other-pub-title {
+    font-weight: 700;
+  }
+  .other-pub-authors {
+    color: var(--text);
+  }
+  .other-pub-venue {
+    color: var(--muted);
+  }
+  .other-pub-venue em {
+    font-style: italic;
+    font-weight: 600;
+    color: var(--text);
+  }
+  
+  .meta {
+    color: var(--muted);
+    margin: 4px 0 8px;
+  }
+  .meta .badge {
+    font-weight: 700;
+    background: #eef3ff;
+    color: var(--text);
+    padding: 2px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    display: inline-block;
+  }
+  
+  .year-badge {
+    font-weight: 700;
+    background: #eef3ff;
+    color: var(--text);
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .awards {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 8px 0 12px;
+  }
+  .awards li {
+    display: block;
+    margin: 6px 0;
+    line-height: 1.55;
+  }
+  .award-title { display: inline-block; max-width: calc(100% - 110px); }
+  .award-year {
+    float: right;
+    color: var(--muted);
+    font-weight: 600;
+    min-width: 90px;
+    text-align: right;
+  }
+  
+  .resource-links a {
+    margin-right: 12px;
+    display: inline-block;
+    padding: 2px 4px;
+  }
+  
+  .edu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  
+  .edu-inline {
+    list-style: none;
+    padding-left: 0;
+    margin: 4px 0 12px;
+  }
+  .edu-inline li { margin: 4px 0; }
+  .edu-inline .degree { font-weight: 700; }
+  .edu-inline .meta { color: var(--muted); font-size: 12px; }
+  .edu-inline .org { color: var(--muted); }
+  
+  .timeline {
+    position: relative;
+    margin: 12px 0 16px;
+    padding-left: 20px;
+  }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--border);
+  }
+  .timeline-item {
+    position: relative;
+    margin: 10px 0;
+  }
+  .timeline-dot {
+    position: absolute;
+    left: -1px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background: var(--link);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff;
+  }
+  .timeline-year {
+    font-weight: 700;
+    color: var(--link);
+    margin-right: 8px;
+  }
+  .timeline-content {
+    display: inline-block;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 10px;
+  }
+  .edu-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--card-bg);
+    padding: 12px;
+  }
+  .edu-title {
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+  .edu-meta {
+    color: var(--muted);
+    margin: 0 0 6px;
+    font-size: 12px;
+  }
+  .edu-org { margin: 0 0 4px; }
+  .edu-advisor { color: var(--muted); font-size: 13px; }
+  
+  @media (max-width: 768px) {
+    .hero {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .hero-avatar {
+      width: 105px;
+      justify-self: start;
+    }
+    .pub-page {
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    .pub-card {
+      padding: 18px 16px 16px;
+    }
+    .pub-card-fig img {
+      width: 132px;
+    }
+    .pub-card-bottom {
+      flex-direction: row;
+      align-items: flex-end;
+    }
+    .other-pub-item {
+      max-width: none;
+    }
+    .edu-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+</style>
+</head>
+<body>
 <div style="text-align:center; font-size: 2rem; font-weight: bold; margin-bottom: 0.5rem;">
     Min Gao 高敏
 </div>
@@ -5,7 +738,7 @@
 <div style="text-align:center; margin-bottom: 1.5rem;">
     <div style="font-size: 1.1rem; color: #444;">Lecturer, School of Information Science and Engineering</div>
     <div style="font-size: 1.1rem; color: #444;">East China University of Science and Technology</div>
-    
+
     <!-- 联系方式徽章 -->
     <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 15px; justify-content: center;">
       <a href="mailto:mgao9704@gmail.com" style="text-decoration: none; padding: 7px 15px; border-radius: 8px; background: #ffffff; color: #333; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.3s ease;">
@@ -20,7 +753,7 @@
       <a href="https://github.com/mgao97" target="_blank" rel="noopener noreferrer" style="text-decoration: none; padding: 7px 15px; border-radius: 8px; background: #24292e; color: #ffffff; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid #000; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease;">
         💻 GitHub
       </a>
-      <a href="data/Mgao_CV_ch_2605.pdf" style="text-decoration: none; padding: 7px 15px; border-radius: 8px; background: #f6e8ee; color: #8a4762; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid #e8d0d9; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.3s ease;">
+      <a href="https://mgao97.github.iodata/Mgao_CV_ch_2605.pdf" style="text-decoration: none; padding: 7px 15px; border-radius: 8px; background: #f6e8ee; color: #8a4762; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid #e8d0d9; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.3s ease;">
         📄 CV
       </a>
     </div>
@@ -29,7 +762,7 @@
 <div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 2rem; flex-wrap: wrap;">
     <div style="flex: 1 1 580px; min-width: 300px;">
         <p style="line-height: 1.6;">
-            Hello! I am a Lecturer in the School of Information Science and Engineering at East China University of Science and Technology. I received my Ph.D. degree from the College of Computer Science and Artificial Intelligence, Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener noreferrer">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener noreferrer">Prof. Xin Wang</a>. I received my M.S. degree from Fujian Normal University, advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener noreferrer">Prof. Li Xu</a>, and my B.S. degree from Anshan Normal University.
+            I am a Lecturer in the School of Information Science and Engineering at East China University of Science and Technology. I received my Ph.D. degree from the College of Computer Science and Artificial Intelligence, Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener noreferrer">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener noreferrer">Prof. Xin Wang</a>. I received my M.S. degree from Fujian Normal University, advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener noreferrer">Prof. Li Xu</a>, and my B.S. degree from Anshan Normal University.
         </p>
 
         <p style="line-height: 1.6;">
@@ -67,7 +800,6 @@
   </div>
 </div>
 
-
 <section class="info-card card-news">
 <h2 class="section-title sec-news"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 9.5v5c0 .8.7 1.5 1.5 1.5H7l6 4c.7.4 1.5-.1 1.5-.9V4.9c0-.8-.8-1.3-1.5-.9L7 8H4.5C3.7 8 3 8.7 3 9.5z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M17.5 9.2a4.2 4.2 0 010 5.6M19.8 7.2a7.2 7.2 0 010 9.6"/></svg>News</h2>
 <ul class="news-list">
@@ -93,13 +825,13 @@
 <span class="pub-card-label"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8.5" y="3" width="11.5" height="14.5" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M15.5 21H6.5a2 2 0 01-2-2V7.5"/></svg>Paper</span>
 <span class="pub-card-date">2026</span>
 </div>
-<h3 class="pub-card-title"><a href="data/Psy4RAG_ICSC26.pdf">Beyond Retrieval: Incorporating Personality and Emotion into RAG-Based Conversational Agents</a></h3>
+<h3 class="pub-card-title"><a href="https://mgao97.github.iodata/Psy4RAG_ICSC26.pdf">Beyond Retrieval: Incorporating Personality and Emotion into RAG-Based Conversational Agents</a></h3>
 <p class="pub-card-authors">Qijian Zheng, <strong>Min Gao</strong>, Qiang Duan, Xiaoming Fu, Yang Chen</p>
 <p class="pub-card-venue"><em>Proc. of ICSC (Oral, Best Paper Award)</em></p>
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Conversational AI</span><span class="data-pill pill-seres"><img src="images/seres.png" alt="SERES 赛力斯">SERES 赛力斯</span></div>
-<span class="pub-card-links"><a href="data/Psy4RAG_ICSC26.pdf">Paper</a></span>
+<span class="pub-card-links"><a href="https://mgao97.github.iodata/Psy4RAG_ICSC26.pdf">Paper</a></span>
 </div>
 <span class="pub-card-fig"><img src="images/Psy4RAG.png" alt="Psy4RAG framework" loading="lazy"></span>
 </div>
@@ -110,13 +842,13 @@
 <span class="pub-card-label"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8.5" y="3" width="11.5" height="14.5" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M15.5 21H6.5a2 2 0 01-2-2V7.5"/></svg>Paper</span>
 <span class="pub-card-date">2026</span>
 </div>
-<h3 class="pub-card-title"><a href="data/FediScan_WWW26_CR.pdf">FediScan: Collaborative Social Bot Detection in the Fediverse</a></h3>
+<h3 class="pub-card-title"><a href="https://mgao97.github.iodata/FediScan_WWW26_CR.pdf">FediScan: Collaborative Social Bot Detection in the Fediverse</a></h3>
 <p class="pub-card-authors"><strong>Min Gao</strong>, Wen Wen, Haoran Du, Qiang Duan, Yu Xiao, Yupeng Li, Xin Wang, Yang Chen</p>
 <p class="pub-card-venue"><em>Proc. of WWW (Oral)</em></p>
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Social Bot Detection</span><span class="data-pill pill-mastodon"><img src="images/mastodon.jpeg" alt="Mastodon">Mastodon</span></div>
-<span class="pub-card-links"><a href="data/FediScan_WWW26_CR.pdf">Paper</a></span>
+<span class="pub-card-links"><a href="https://mgao97.github.iodata/FediScan_WWW26_CR.pdf">Paper</a></span>
 </div>
 <span class="pub-card-fig"><img src="images/FediScan.png" alt="Social Bot Detection framework" loading="lazy"></span>
 </div>
@@ -135,7 +867,7 @@
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Fraud Detection</span><span class="data-pill pill-meituan"><img src="images/meituan.png" alt="Meituan">美团 Meituan</span></div>
-<span class="pub-card-links"><a href="data/EnvIT_TNSE.pdf">Paper</a></span>
+<span class="pub-card-links"><a href="https://mgao97.github.iodata/EnvIT_TNSE.pdf">Paper</a></span>
 </div>
 <span class="pub-card-fig"><img src="images/EnvIT.png" alt="Fraud Detection framework" loading="lazy"></span>
 </div>
@@ -152,7 +884,7 @@
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Social Bot Detection</span><span class="data-pill pill-twitter"><img src="images/x.png" alt="X">X (Twitter)</span></div>
-<span class="pub-card-links"><a href="data/HyperScan_CIKM_pub.pdf">Paper</a></span>
+<span class="pub-card-links"><a href="https://mgao97.github.iodata/HyperScan_CIKM_pub.pdf">Paper</a></span>
 </div>
 <span class="pub-card-fig"><img src="images/HyperScan.png" alt="Social Bot Detection framework" loading="lazy"></span>
 </div>
@@ -171,7 +903,7 @@
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Higher-Order Networks</span></div>
-<span class="pub-card-links"><a href="data/EasyHypergraph_HSSC25.pdf">Paper</a></span>
+<span class="pub-card-links"><a href="https://mgao97.github.iodata/EasyHypergraph_HSSC25.pdf">Paper</a></span>
 </div>
 <span class="pub-card-fig"><img src="images/EasyHypergraph.png" alt="Higher-Order Networks framework" loading="lazy"></span>
 </div>
@@ -188,7 +920,7 @@
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Dataset</span><span class="data-pill pill-mastodon"><img src="images/mastodon.jpeg" alt="Mastodon">Mastodon</span></div>
-<span class="pub-card-links"><a href="data/FediData_CIKM_pub.pdf">Paper</a><a href="https://github.com/FDUDataNET/FediData" target="_blank" rel="noopener noreferrer">Code</a><a href="https://zenodo.org/records/15621243" target="_blank" rel="noopener noreferrer">Dataset</a></span>
+<span class="pub-card-links"><a href="https://mgao97.github.iodata/FediData_CIKM_pub.pdf">Paper</a><a href="https://github.com/FDUDataNET/FediData" target="_blank" rel="noopener noreferrer">Code</a><a href="https://zenodo.org/records/15621243" target="_blank" rel="noopener noreferrer">Dataset</a></span>
 </div>
 <span class="pub-card-fig"><img src="images/FediData.png" alt="Dataset framework" loading="lazy"></span>
 </div>
@@ -207,7 +939,7 @@
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Fraud Detection</span><span class="data-pill pill-meituan"><img src="images/meituan.png" alt="Meituan">美团 Meituan</span></div>
-<span class="pub-card-links"><a href="data/PNR_FITEE.pdf">Paper</a></span>
+<span class="pub-card-links"><a href="https://mgao97.github.iodata/PNR_FITEE.pdf">Paper</a></span>
 </div>
 <span class="pub-card-fig"><img src="images/PNR.png" alt="Fraud Detection framework" loading="lazy"></span>
 </div>
@@ -224,7 +956,7 @@
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Open Source</span><span class="data-pill pill-easygraph">EasyGraph</span></div>
-<span class="pub-card-links"><a href="data/EasyGraph_Patterns_pub.pdf">Paper</a><a href="https://easy-graph.github.io/" target="_blank" rel="noopener noreferrer">Project</a><a href="https://easy-graph.github.io/docs/hypergraph.html" target="_blank" rel="noopener noreferrer">EasyHypergraph</a><a href="https://github.com/easy-graph/Easy-Graph" target="_blank" rel="noopener noreferrer">Code</a><a href="https://github.com/easy-graph/easygraph_benchmark_20230501" target="_blank" rel="noopener noreferrer">Datasets</a></span>
+<span class="pub-card-links"><a href="https://mgao97.github.iodata/EasyGraph_Patterns_pub.pdf">Paper</a><a href="https://easy-graph.github.io/" target="_blank" rel="noopener noreferrer">Project</a><a href="https://easy-graph.github.io/docs/hypergraph.html" target="_blank" rel="noopener noreferrer">EasyHypergraph</a><a href="https://github.com/easy-graph/Easy-Graph" target="_blank" rel="noopener noreferrer">Code</a><a href="https://github.com/easy-graph/easygraph_benchmark_20230501" target="_blank" rel="noopener noreferrer">Datasets</a></span>
 </div>
 <span class="pub-card-fig"><img src="images/easygraph.png" alt="Open Source framework" loading="lazy"></span>
 </div>
@@ -352,3 +1084,5 @@
 <li><strong>Invited Reviewer:</strong> ICWSM 2026; Neurocomputing 2026; TIFS 2026; TSC 2026; IPM 2026; ESWA 2026; TST 2025; TKDD 2025; TCSS 2024; JSC 2023–2026</li>
 </ul>
 </section>
+</body>
+</html>
