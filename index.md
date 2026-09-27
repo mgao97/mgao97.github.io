@@ -37,7 +37,7 @@
         </p>
 
         <p style="line-height: 1.6;">
-            Alongside method development, I build and release open-source toolkits and benchmark datasets (e.g., <a href="https://easy-graph.github.io/" target="_blank" rel="noopener noreferrer">EasyGraph</a>, our higher-order network library <a href="https://easy-graph.github.io/docs/hypergraph.html" target="_blank" rel="noopener noreferrer">EasyHypergraph</a>, and <a href="https://github.com/FDUDataNET/FediData" target="_blank" rel="noopener noreferrer">FediData</a>) so that these evaluations stay reproducible for the community.
+            Alongside method development, I build and release open-source toolkits and benchmark datasets (e.g., <a href="https://easy-graph.github.io/" target="_blank" rel="noopener noreferrer">EasyGraph</a>, our higher-order network library <a href="https://easy-graph.github.io/docs/hypergraph.html" target="_blank" rel="noopener noreferrer">EasyHypergraph</a>, <a href="https://github.com/FDUDataNET/FediLive" target="_blank" rel="noopener noreferrer">FediLive</a>, and <a href="https://github.com/FDUDataNET/FediData" target="_blank" rel="noopener noreferrer">FediData</a>) so that these evaluations stay reproducible for the community.
         </p>
 
         <p style="line-height: 1.6; color: red;">
