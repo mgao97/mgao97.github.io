@@ -33,7 +33,7 @@
         </p>
 
         <p style="line-height: 1.6;">
-            My research interests include data mining, graph/hypergraph learning, and graph for LLMs. My recent work focuses on effective learning methods for complex graph and hypergraph data, with an emphasis on multimodal representation learning that unifies relational, textual, and behavioral evidence. The work is driven by problems of trust, safety, and behavior modeling on online platforms, and sits at the intersection of network science and computational social science. As human-machine societies become the norm, I am increasingly drawn to AI safety: models that remain robust, accountable, and interpretable when humans and autonomous agents populate the same ecosystem.
+            My research interests include data mining, graph and hypergraph learning, and graph-based methods for large language models (LLMs). I develop learning methods for complex relational data, with a particular focus on multimodal representation learning that integrates relational, textual, and behavioral signals. My work addresses challenges in trust, safety, and behavior modeling on online platforms and emerging human–machine societies, at the intersection of network science, machine learning, and computational social science.
         </p>
 
         <p style="line-height: 1.6;">
