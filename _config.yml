@@ -3,3 +3,5 @@ title: Min Gao
 exclude:
   - Gemfile
   - Gemfile.lock
+  - preview_static.html
+  - .workbuddy
