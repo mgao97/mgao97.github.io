@@ -20,7 +20,7 @@
       <a href="https://github.com/mgao97" target="_blank" rel="noopener noreferrer" style="text-decoration: none; padding: 7px 15px; border-radius: 8px; background: #24292e; color: #ffffff; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid #000; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease;">
         💻 GitHub
       </a>
-      <a href="data/Mgao_CV_ch_2605.pdf" style="text-decoration: none; padding: 7px 15px; border-radius: 8px; background: #f6e8ee; color: #8a4762; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid #e8d0d9; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.3s ease;">
+      <a href="data/Mgao_CV_ch_2610.pdf" style="text-decoration: none; padding: 7px 15px; border-radius: 8px; background: #f6e8ee; color: #8a4762; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid #e8d0d9; box-shadow: 0 2px 4px rgba(0,0,0,0.05); transition: all 0.3s ease;">
         📄 CV
       </a>
     </div>
