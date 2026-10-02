@@ -71,7 +71,7 @@
 <section class="info-card card-news">
 <h2 class="section-title sec-news"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 9.5v5c0 .8.7 1.5 1.5 1.5H7l6 4c.7.4 1.5-.1 1.5-.9V4.9c0-.8-.8-1.3-1.5-.9L7 8H4.5C3.7 8 3 8.7 3 9.5z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M17.5 9.2a4.2 4.2 0 010 5.6M19.8 7.2a7.2 7.2 0 010 9.6"/></svg>News</h2>
 <ul class="news-list">
-<li><strong>[2026/06]</strong> Our paper "Beyond Retrieval: Incorporating Personality and Emotion into RAG-Based Conversational Agents" was accepted by <a href="https://icsc-conf.github.io/2026/index.html" target="_blank" rel="noopener noreferrer">ICSC 2026</a> (Oral Presentation).</li>
+<li><strong>[2026/06]</strong> Our paper "Beyond Retrieval: Incorporating Personality and Emotion into RAG-Based Conversational Agents" was accepted by <a href="https://icsc-conf.github.io/2026/index.html" target="_blank" rel="noopener noreferrer">ICSC 2026</a> (Best Paper Award).</li>
 <li><strong>[2026/02]</strong> We released <a href="https://easy-graph.github.io/" target="_blank" rel="noopener noreferrer">EasyGraph 1.6</a>.</li>
 <li><strong>[2026/01]</strong> EasyGraph reached over <strong>1 million downloads</strong> on pip.</li>
 <li><strong>[2026/01]</strong> Our paper "FediScan: Collaborative Social Bot Detection in the Fediverse" was accepted by <a href="https://www2026.thewebconf.org/" target="_blank" rel="noopener noreferrer">WWW 2026</a> (Oral Presentation).</li>
@@ -94,8 +94,8 @@
 <span class="pub-card-date">2026</span>
 </div>
 <h3 class="pub-card-title"><a href="data/Psy4RAG_ICSC26.pdf">Beyond Retrieval: Incorporating Personality and Emotion into RAG-Based Conversational Agents</a></h3>
-<p class="pub-card-authors">Qijian Zheng, <strong>Min Gao</strong>, Qiang Duan, Xiaoming Fu, Yang Chen</p>
-<p class="pub-card-venue"><em>Proc. of ICSC (Oral, Best Paper Award)</em></p>
+<p class="pub-card-authors">Qijian Zheng, <strong>Min Gao</strong>, Zhijun Yuan, Qin Su, Guanghui Zhou, Qiang Duan, Xiaoming Fu, Yang Chen</p>
+<p class="pub-card-venue"><em>Proc. of ICSC (Best Paper Award)</em></p>
 <div class="pub-card-bottom">
 <div class="pub-card-meta">
 <div class="pub-card-tags"><span class="pub-card-tag">Conversational AI</span><span class="data-pill pill-seres"><img src="images/seres.png" alt="SERES 赛力斯">SERES 赛力斯</span></div>
