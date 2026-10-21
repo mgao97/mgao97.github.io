@@ -27,8 +27,8 @@
 </div>
 
 <div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 2rem; flex-wrap: wrap;">
-    <div style="flex: 0 0 200px;">
-        <img src="images/profile_photo.jpeg" alt="Portrait of Min Gao" loading="lazy" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: center 25%; display: block; margin: 0 auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 3px solid #fff;">
+    <div style="flex: 0 0 182px;">
+        <img src="images/profile_photo.jpeg" alt="Portrait of Min Gao" loading="lazy" style="width: 168px; height: 214px; border-radius: 50%; object-fit: cover; object-position: center 25%; display: block; margin: 0 auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 3px solid #fff;">
     </div>
 
     <div style="flex: 1 1 580px; min-width: 300px;">
