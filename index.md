@@ -27,6 +27,10 @@
 </div>
 
 <div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 2rem; flex-wrap: wrap;">
+    <div style="flex: 0 0 200px;">
+        <img src="images/profile_photo.jpeg" alt="Portrait of Min Gao" loading="lazy" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: center 25%; display: block; margin: 0 auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 3px solid #fff;">
+    </div>
+
     <div style="flex: 1 1 580px; min-width: 300px;">
         <p style="line-height: 1.6;">
             Hello! I am a Lecturer in the School of Information Science and Engineering at East China University of Science and Technology. I received my Ph.D. degree from the College of Computer Science and Artificial Intelligence, Fudan University, advised by <a href="https://chenyang03.wordpress.com/" target="_blank" rel="noopener noreferrer">Prof. Yang Chen</a> and <a href="https://faculty.fudan.edu.cn/wangxin/zh_CN/" target="_blank" rel="noopener noreferrer">Prof. Xin Wang</a>. I received my M.S. degree from Fujian Normal University, advised by <a href="https://ccs.fjnu.edu.cn/15/81/c16741a333185/page.htm" target="_blank" rel="noopener noreferrer">Prof. Li Xu</a>, and my B.S. degree from Anshan Normal University.
@@ -43,10 +47,6 @@
         <p style="line-height: 1.6; color: red;">
             💌  I am always actively looking for highly motivated students. Please email me your CV if you are interested in!
         </p>
-    </div>
-
-    <div style="flex: 0 0 200px; margin-left: auto;">
-        <img src="images/profile_photo.jpeg" alt="Portrait of Min Gao" loading="lazy" style="width: 100%; max-width: 185px; border-radius: 12px; display: block; margin: 0 auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 3px solid #fff;">
     </div>
 </div>
 
